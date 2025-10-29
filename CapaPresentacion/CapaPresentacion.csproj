@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Reference Include="ComponentFactory.Krypton.Docking, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
       <HintPath>..\Libs\ComponentFactory.Krypton.Docking.dll</HintPath>
     </Reference>
@@ -65,6 +66,8 @@
       <HintPath>..\..\ExamenParcial\Libs\ComponentFactory.Krypton.Workspace.dll</HintPath>
 >>>>>>> 9ae97594f59869b229f6b6a5378e51435cc98f93
     </Reference>
+=======
+>>>>>>> parent of 51033d2 (Pantalla Pago Empleados)
     <Reference Include="FontAwesome.Sharp, Version=6.6.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.6.6.0\lib\net48\FontAwesome.Sharp.dll</HintPath>
     </Reference>
@@ -86,14 +89,19 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="FrmPagoEmpleados.cs">
+=======
+    <Compile Include="Form1.cs">
+>>>>>>> parent of 51033d2 (Pantalla Pago Empleados)
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmPagoEmpleados.Designer.cs">
-      <DependentUpon>FrmPagoEmpleados.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="FrmPagoEmpleados.resx">
       <DependentUpon>FrmPagoEmpleados.cs</DependentUpon>
 =======
@@ -118,6 +126,8 @@
       <DependentUpon>FrmUsuarios.cs</DependentUpon>
 >>>>>>> 9ae97594f59869b229f6b6a5378e51435cc98f93
     </EmbeddedResource>
+=======
+>>>>>>> parent of 51033d2 (Pantalla Pago Empleados)
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -140,30 +150,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Analyzer Include="..\..\..\..\OneDrive\UMG Darien\2do Ciclo 2025\Progra ll\Parcial1\Libs\ComponentFactory.Krypton.Docking.dll" />
-    <Analyzer Include="..\..\..\..\OneDrive\UMG Darien\2do Ciclo 2025\Progra ll\Parcial1\Libs\ComponentFactory.Krypton.Navigator.dll" />
-    <Analyzer Include="..\..\..\..\OneDrive\UMG Darien\2do Ciclo 2025\Progra ll\Parcial1\Libs\ComponentFactory.Krypton.Ribbon.dll" />
-    <Analyzer Include="..\..\..\..\OneDrive\UMG Darien\2do Ciclo 2025\Progra ll\Parcial1\Libs\ComponentFactory.Krypton.Toolkit.dll" />
-    <Analyzer Include="..\..\..\..\OneDrive\UMG Darien\2do Ciclo 2025\Progra ll\Parcial1\Libs\ComponentFactory.Krypton.Workspace.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">
-      <Project>{cd6d2ce6-3dd6-4d76-98f1-1fa18a37e9f7}</Project>
-      <Name>CapaDatos</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CapaLogica\CapaLogica.csproj">
-      <Project>{c7f55df9-93b3-40f1-9452-20e2420ed5bc}</Project>
-      <Name>CapaLogica</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CapaSeguridad\CapaSeguridad.csproj">
-      <Project>{f277f1fb-bc18-4d09-b516-1adaecec36ad}</Project>
-      <Name>CapaSeguridad</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
