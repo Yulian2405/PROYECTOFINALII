@@ -93,8 +93,8 @@
             // 
             this.kryptonSplitContainer1.Cursor = System.Windows.Forms.Cursors.Default;
             this.kryptonSplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.kryptonSplitContainer1.Location = new System.Drawing.Point(0, 27);
-            this.kryptonSplitContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.kryptonSplitContainer1.Location = new System.Drawing.Point(0, 31);
+            this.kryptonSplitContainer1.Margin = new System.Windows.Forms.Padding(4);
             this.kryptonSplitContainer1.Name = "kryptonSplitContainer1";
             // 
             // kryptonSplitContainer1.Panel1
@@ -104,7 +104,7 @@
             // kryptonSplitContainer1.Panel2
             // 
             this.kryptonSplitContainer1.Panel2.Controls.Add(this.kryptonHeaderGroup1);
-            this.kryptonSplitContainer1.Size = new System.Drawing.Size(1283, 593);
+            this.kryptonSplitContainer1.Size = new System.Drawing.Size(1283, 589);
             this.kryptonSplitContainer1.SplitterDistance = 328;
             this.kryptonSplitContainer1.TabIndex = 4;
             // 
@@ -113,7 +113,7 @@
             this.kryptonHeaderGroup2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kryptonHeaderGroup2.HeaderVisibleSecondary = false;
             this.kryptonHeaderGroup2.Location = new System.Drawing.Point(0, 0);
-            this.kryptonHeaderGroup2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.kryptonHeaderGroup2.Margin = new System.Windows.Forms.Padding(4);
             this.kryptonHeaderGroup2.Name = "kryptonHeaderGroup2";
             // 
             // kryptonHeaderGroup2.Panel
@@ -132,7 +132,7 @@
             this.kryptonHeaderGroup2.Panel.Controls.Add(this.txtApellido);
             this.kryptonHeaderGroup2.Panel.Controls.Add(this.txtNombre);
             this.kryptonHeaderGroup2.Panel.Controls.Add(this.txtCodigoCliente);
-            this.kryptonHeaderGroup2.Size = new System.Drawing.Size(328, 593);
+            this.kryptonHeaderGroup2.Size = new System.Drawing.Size(328, 589);
             this.kryptonHeaderGroup2.StateNormal.HeaderPrimary.Content.LongText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
             this.kryptonHeaderGroup2.StateNormal.HeaderPrimary.Content.LongText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
             this.kryptonHeaderGroup2.TabIndex = 1;
@@ -148,7 +148,7 @@
             this.buttonSpecAny11});
             this.txtTelefono.InputControlStyle = ComponentFactory.Krypton.Toolkit.InputControlStyle.Custom1;
             this.txtTelefono.Location = new System.Drawing.Point(16, 378);
-            this.txtTelefono.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTelefono.Margin = new System.Windows.Forms.Padding(4);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Blue;
             this.txtTelefono.Size = new System.Drawing.Size(313, 31);
@@ -172,7 +172,7 @@
             this.buttonSpecAny10});
             this.txtNit.InputControlStyle = ComponentFactory.Krypton.Toolkit.InputControlStyle.Custom1;
             this.txtNit.Location = new System.Drawing.Point(17, 304);
-            this.txtNit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNit.Margin = new System.Windows.Forms.Padding(4);
             this.txtNit.Name = "txtNit";
             this.txtNit.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Blue;
             this.txtNit.Size = new System.Drawing.Size(313, 31);
@@ -200,7 +200,7 @@
             "Suspendido",
             "Despedido"});
             this.cboxEstado.Location = new System.Drawing.Point(15, 443);
-            this.cboxEstado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboxEstado.Margin = new System.Windows.Forms.Padding(4);
             this.cboxEstado.Name = "cboxEstado";
             this.cboxEstado.Size = new System.Drawing.Size(313, 29);
             this.cboxEstado.StateActive.ComboBox.Border.Color1 = System.Drawing.Color.LightSlateGray;
@@ -215,7 +215,7 @@
             // 
             this.kryptonLabel8.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
             this.kryptonLabel8.Location = new System.Drawing.Point(15, 420);
-            this.kryptonLabel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.kryptonLabel8.Margin = new System.Windows.Forms.Padding(4);
             this.kryptonLabel8.Name = "kryptonLabel8";
             this.kryptonLabel8.Size = new System.Drawing.Size(64, 24);
             this.kryptonLabel8.TabIndex = 24;
@@ -225,7 +225,7 @@
             // 
             this.kryptonLabel7.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
             this.kryptonLabel7.Location = new System.Drawing.Point(13, 351);
-            this.kryptonLabel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.kryptonLabel7.Margin = new System.Windows.Forms.Padding(4);
             this.kryptonLabel7.Name = "kryptonLabel7";
             this.kryptonLabel7.Size = new System.Drawing.Size(80, 24);
             this.kryptonLabel7.TabIndex = 23;
@@ -235,7 +235,7 @@
             // 
             this.kryptonLabel5.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
             this.kryptonLabel5.Location = new System.Drawing.Point(15, 278);
-            this.kryptonLabel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.kryptonLabel5.Margin = new System.Windows.Forms.Padding(4);
             this.kryptonLabel5.Name = "kryptonLabel5";
             this.kryptonLabel5.Size = new System.Drawing.Size(38, 24);
             this.kryptonLabel5.TabIndex = 21;
@@ -245,7 +245,7 @@
             // 
             this.kryptonLabel4.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
             this.kryptonLabel4.Location = new System.Drawing.Point(15, 211);
-            this.kryptonLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.kryptonLabel4.Margin = new System.Windows.Forms.Padding(4);
             this.kryptonLabel4.Name = "kryptonLabel4";
             this.kryptonLabel4.Size = new System.Drawing.Size(41, 24);
             this.kryptonLabel4.TabIndex = 20;
@@ -255,7 +255,7 @@
             // 
             this.kryptonLabel3.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
             this.kryptonLabel3.Location = new System.Drawing.Point(15, 143);
-            this.kryptonLabel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.kryptonLabel3.Margin = new System.Windows.Forms.Padding(4);
             this.kryptonLabel3.Name = "kryptonLabel3";
             this.kryptonLabel3.Size = new System.Drawing.Size(77, 24);
             this.kryptonLabel3.TabIndex = 19;
@@ -265,7 +265,7 @@
             // 
             this.kryptonLabel2.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
             this.kryptonLabel2.Location = new System.Drawing.Point(15, 75);
-            this.kryptonLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.kryptonLabel2.Margin = new System.Windows.Forms.Padding(4);
             this.kryptonLabel2.Name = "kryptonLabel2";
             this.kryptonLabel2.Size = new System.Drawing.Size(76, 24);
             this.kryptonLabel2.TabIndex = 18;
@@ -275,7 +275,7 @@
             // 
             this.kryptonLabel1.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
             this.kryptonLabel1.Location = new System.Drawing.Point(12, 8);
-            this.kryptonLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.kryptonLabel1.Margin = new System.Windows.Forms.Padding(4);
             this.kryptonLabel1.Name = "kryptonLabel1";
             this.kryptonLabel1.Size = new System.Drawing.Size(122, 24);
             this.kryptonLabel1.TabIndex = 17;
@@ -287,7 +287,7 @@
             this.buttonSpecAny9});
             this.txtDpi.InputControlStyle = ComponentFactory.Krypton.Toolkit.InputControlStyle.Custom1;
             this.txtDpi.Location = new System.Drawing.Point(15, 236);
-            this.txtDpi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDpi.Margin = new System.Windows.Forms.Padding(4);
             this.txtDpi.Name = "txtDpi";
             this.txtDpi.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Blue;
             this.txtDpi.Size = new System.Drawing.Size(313, 31);
@@ -311,7 +311,7 @@
             this.buttonSpecAny8});
             this.txtApellido.InputControlStyle = ComponentFactory.Krypton.Toolkit.InputControlStyle.Custom1;
             this.txtApellido.Location = new System.Drawing.Point(15, 168);
-            this.txtApellido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtApellido.Margin = new System.Windows.Forms.Padding(4);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Blue;
             this.txtApellido.Size = new System.Drawing.Size(313, 31);
@@ -342,7 +342,7 @@
             this.buttonSpecAny6});
             this.txtNombre.InputControlStyle = ComponentFactory.Krypton.Toolkit.InputControlStyle.Custom1;
             this.txtNombre.Location = new System.Drawing.Point(15, 101);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Blue;
             this.txtNombre.Size = new System.Drawing.Size(313, 31);
@@ -366,7 +366,7 @@
             this.buttonSpecAny5});
             this.txtCodigoCliente.InputControlStyle = ComponentFactory.Krypton.Toolkit.InputControlStyle.Custom1;
             this.txtCodigoCliente.Location = new System.Drawing.Point(15, 33);
-            this.txtCodigoCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCodigoCliente.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodigoCliente.Name = "txtCodigoCliente";
             this.txtCodigoCliente.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.SparkleBlue;
             this.txtCodigoCliente.ReadOnly = true;
@@ -397,14 +397,14 @@
             // 
             this.kryptonHeaderGroup1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kryptonHeaderGroup1.Location = new System.Drawing.Point(0, 0);
-            this.kryptonHeaderGroup1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.kryptonHeaderGroup1.Margin = new System.Windows.Forms.Padding(4);
             this.kryptonHeaderGroup1.Name = "kryptonHeaderGroup1";
             // 
             // kryptonHeaderGroup1.Panel
             // 
             this.kryptonHeaderGroup1.Panel.Controls.Add(this.dgvClientes);
             this.kryptonHeaderGroup1.Panel.Controls.Add(this.dgvEmpleados);
-            this.kryptonHeaderGroup1.Size = new System.Drawing.Size(950, 593);
+            this.kryptonHeaderGroup1.Size = new System.Drawing.Size(950, 589);
             this.kryptonHeaderGroup1.StateNormal.HeaderPrimary.Content.LongText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
             this.kryptonHeaderGroup1.StateNormal.HeaderPrimary.Content.LongText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
             this.kryptonHeaderGroup1.TabIndex = 0;
@@ -420,12 +420,12 @@
             this.dgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvClientes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvClientes.Location = new System.Drawing.Point(0, 0);
-            this.dgvClientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvClientes.Margin = new System.Windows.Forms.Padding(4);
             this.dgvClientes.Name = "dgvClientes";
             this.dgvClientes.ReadOnly = true;
             this.dgvClientes.RowHeadersWidth = 51;
             this.dgvClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvClientes.Size = new System.Drawing.Size(948, 537);
+            this.dgvClientes.Size = new System.Drawing.Size(948, 533);
             this.dgvClientes.TabIndex = 3;
             // 
             // dgvEmpleados
@@ -434,12 +434,12 @@
             this.dgvEmpleados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvEmpleados.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvEmpleados.Location = new System.Drawing.Point(0, 0);
-            this.dgvEmpleados.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvEmpleados.Margin = new System.Windows.Forms.Padding(4);
             this.dgvEmpleados.Name = "dgvEmpleados";
             this.dgvEmpleados.ReadOnly = true;
             this.dgvEmpleados.RowHeadersWidth = 51;
             this.dgvEmpleados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvEmpleados.Size = new System.Drawing.Size(948, 537);
+            this.dgvEmpleados.Size = new System.Drawing.Size(948, 533);
             this.dgvEmpleados.TabIndex = 0;
             // 
             // buttonSpecAny1
@@ -465,7 +465,7 @@
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(1283, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(1283, 31);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -478,13 +478,13 @@
             this.btnAgregar.IconSize = 90;
             this.btnAgregar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(99, 24);
+            this.btnAgregar.Size = new System.Drawing.Size(99, 28);
             this.btnAgregar.Text = "AGREGAR";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 31);
             // 
             // btnEditar
             // 
@@ -495,13 +495,13 @@
             this.btnEditar.IconSize = 90;
             this.btnEditar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(82, 24);
+            this.btnEditar.Size = new System.Drawing.Size(82, 28);
             this.btnEditar.Text = "EDITAR";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 27);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 31);
             // 
             // btnEliminar
             // 
@@ -512,13 +512,13 @@
             this.btnEliminar.IconSize = 90;
             this.btnEliminar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(99, 24);
+            this.btnEliminar.Size = new System.Drawing.Size(99, 28);
             this.btnEliminar.Text = "ELIMINAR";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 27);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 31);
             // 
             // btnLimpiar
             // 
@@ -529,13 +529,13 @@
             this.btnLimpiar.IconSize = 90;
             this.btnLimpiar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(88, 24);
+            this.btnLimpiar.Size = new System.Drawing.Size(88, 28);
             this.btnLimpiar.Text = "LIMPIAR";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 27);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 31);
             // 
             // btnCerrar
             // 
@@ -546,7 +546,7 @@
             this.btnCerrar.IconSize = 90;
             this.btnCerrar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(87, 24);
+            this.btnCerrar.Size = new System.Drawing.Size(87, 28);
             this.btnCerrar.Text = "CERRAR";
             // 
             // buttonSpecAny7
@@ -576,7 +576,7 @@
             this.ClientSize = new System.Drawing.Size(1283, 620);
             this.Controls.Add(this.kryptonSplitContainer1);
             this.Controls.Add(this.toolStrip1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmClientes";
             this.Text = "FrmClientes";
             this.Load += new System.EventHandler(this.FrmClientes_Load);
