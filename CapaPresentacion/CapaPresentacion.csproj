@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -34,19 +34,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ComponentFactory.Krypton.Docking">
-      <HintPath>..\..\PrimerRepasoExamenC4\Libs\ComponentFactory.Krypton.Docking.dll</HintPath>
+      <HintPath>..\..\ExamenParcial\Libs\ComponentFactory.Krypton.Docking.dll</HintPath>
     </Reference>
     <Reference Include="ComponentFactory.Krypton.Navigator">
-      <HintPath>..\..\TelcoIngeUMG\Libs\ComponentFactory.Krypton.Navigator.dll</HintPath>
+      <HintPath>..\..\ExamenParcial\Libs\ComponentFactory.Krypton.Navigator.dll</HintPath>
     </Reference>
     <Reference Include="ComponentFactory.Krypton.Ribbon">
-      <HintPath>..\..\TelcoIngeUMG\Libs\ComponentFactory.Krypton.Ribbon.dll</HintPath>
+      <HintPath>..\..\ExamenParcial\Libs\ComponentFactory.Krypton.Ribbon.dll</HintPath>
     </Reference>
     <Reference Include="ComponentFactory.Krypton.Toolkit">
-      <HintPath>..\..\TelcoIngeUMG\Libs\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+      <HintPath>..\..\ExamenParcial\Libs\ComponentFactory.Krypton.Toolkit.dll</HintPath>
     </Reference>
     <Reference Include="ComponentFactory.Krypton.Workspace">
-      <HintPath>..\..\TelcoIngeUMG\Libs\ComponentFactory.Krypton.Workspace.dll</HintPath>
+      <HintPath>..\..\ExamenParcial\Libs\ComponentFactory.Krypton.Workspace.dll</HintPath>
     </Reference>
     <Reference Include="FontAwesome.Sharp, Version=6.6.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.6.6.0\lib\net48\FontAwesome.Sharp.dll</HintPath>
